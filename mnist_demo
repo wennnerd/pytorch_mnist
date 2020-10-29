@@ -1,7 +1,20 @@
-import torch
-from torchvision import datasets, transforms
-import matplotlib.pyplot as plt
-import os
-import torchvision
-import numpy as np
-from torch.autograd import Variable
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "import torch\n",
+    "from torchvision import datasets, transforms\n",
+    "import matplotlib.pyplot as plt\n",
+    "import os\n",
+    "import torchvision\n",
+    "import numpy as np\n",
+    "from torch.autograd import Variable\n",
+    "%matplotlib inline"
+   ]
+  },
